@@ -1,0 +1,126 @@
+body{
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.section01{
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../img/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+  color: #ffffff;
+}
+.conteudo__logo{
+  width: 248px;
+  height: 214px;
+}
+
+.conteudo .conteudo__titulo{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.conteudo .conteudo__texto{
+  font-size: 1.25rem;
+  margin: 16px 0 24px;
+  margin-bottom: 40px;
+}
+
+.conteudo__botao{
+    color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border: 2px solid;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#course-content{
+  width: 800px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#course-content .modules-list{
+  margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+  color: #ffffff;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span {
+  color: #33A8DB
+}
+
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url('../img/woman-code.png');
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  padding: 200px;
+}
+
+#transform-world p {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  max-width: 250px;
+  text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges {
+  text-align: center;
+  width: 800px;
+}
+
+#professional-challenges img {
+  margin: 32px 0;
+}
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  border-top: 1px solid #33A8DB;
+}
+
+footer .dio-logo {
+  width: 300px;
+}
+
+footer a {
+  color: #33A8DB;
+  font-weight: bold;
+  text-decoration: none;
+}
